@@ -20,6 +20,6 @@ public class Maximum_Weight_Node {
             }
         }
 
-        System.out.println("Node with maximum weight (in-degree): " + maxNode);
+        System.out.println("Node with maximum weight: " + maxNode);
     }
 }
