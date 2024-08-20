@@ -23,7 +23,7 @@ public class HashMapFunctions{
 
             System.out.println("after removed:"+hp);
 
-            // Iterate through the HashMap
+//           //  Iterate through the HashMap
 //            for (int number : hp.keySet()) {
 //                String word = hp.get(number);
 //                System.out.println(number + " is " + word);
