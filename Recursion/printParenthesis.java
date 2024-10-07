@@ -14,7 +14,8 @@ public class printParenthesis {
            parenthesis(n,open,close+1,ans+")");
        }
     }
-    public static void main(String args[]){
+    public static void main(String[] args){
+
         parenthesis(3,0,0,"");
     }
 }
