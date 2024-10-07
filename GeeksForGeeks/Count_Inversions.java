@@ -20,3 +20,20 @@ public class Count_Inversions {
         System.out.println(count);
     }
 }
+
+// class Solution {
+//     // arr[]: Input Array
+//     // N : Size of the Array arr[]
+//     // Function to count inversions in the array.
+//     static long inversionCount(long arr[]) {
+//         long count=0;
+//         for(int i=0;i<arr.length;i++){
+//             for(int j=i+1;j<arr.length;j++){
+//                 if(i!=j && arr[i]>arr[j]){
+//                     count++;
+//                 }
+//             }
+//         }
+//         return count;
+//     }
+// }
